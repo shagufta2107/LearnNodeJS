@@ -19,6 +19,10 @@
     "url": "https://github.com/shagufta2107/LearnNodeJS/issues"
   },
   "homepage": "https://github.com/shagufta2107/LearnNodeJS#readme",
+  "scripts": {
+    "postinstall": "node readData.js"
+    
+  },
   "dependencies": {
     "express": "^4.16.2",
     "mongodb": "^2.2.33"
